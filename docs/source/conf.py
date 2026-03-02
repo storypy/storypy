@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.viewcode',
     'sphinx.ext.autosummary',
     'sphinx.ext.napoleon',
+    'notfound.extension',
 ]
 
 autosummary_generate = True
