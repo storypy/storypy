@@ -3,14 +3,14 @@ Using StoryPy
 
 First of all, to use the StoryPy module in your project, you need to include it::
 
-    import StoryPy
+    import storypy
 
 After the module is included, all its objects will be available.
 
 The ``declare`` function
 ------------------------
 
-You can use the ``StoryPy.declare()`` function to declare variables in the main scope of your program (scope selection is not yet supported, but planned).
+You can use the ``storypy.declare()`` function to declare variables in the main scope of your program (scope selection is not yet supported, but planned).
 
     Note that if the specified entity already exists in the main scope, the ``declare`` function will override it without confirmation.
 
@@ -19,7 +19,7 @@ Usage
 
 The ``declare`` function needs three inputs: ``category``, ``name``, and ``value``, as shown below::
 
-    StoryPy.declare(category: str, name: str, value: Any)
+    storypy.declare(category: str, name: str, value: Any)
 
 The ``category`` input specifies the category of the entity you are declaring (e.g. "variable", "function"). Must be a string.
 
@@ -34,6 +34,6 @@ Examples
 
 So we'd like to create a variable called "one", with the integer value of 1. We can do this by running::
 
-    StoryPy.declare("variable", "one", 1)
+    storypy.declare("variable", "one", 1)
 
 And that's it. Now, the ``one`` variable will be available in our program's main scope.
