@@ -23,3 +23,7 @@
 
 # Jupyter notebook
 *.ipynb  text eol=lf
+
+# Static files in documentation
+*.png    binary
+*.psd    binary
