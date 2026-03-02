@@ -1,7 +1,7 @@
-[^.]*.* linguist-detectable=true
-[^.]*.* linguist-generated=false
-[^.]*.* linguist-vendored=false
-[^.]*.* linguist-documentation=false
+[^.]*.[^rst]* linguist-detectable=true
+[^.]*.[^rst]* linguist-generated=false
+[^.]*.[^rst]* linguist-vendored=false
+[^.]*.[^rst]* linguist-documentation=false
 
 # Source files
 *.pxd    text diff=python
