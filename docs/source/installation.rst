@@ -1,22 +1,47 @@
 Installing StoryPy
 ==================
 
-Installation of StoryPy is done via PyPi. Follow the instructions below, depending on your platform.
+Installation of StoryPy can be done using Python's ``pip`` package manager.
 
-**Unix-based**
+From PyPI
+---------
 
-::
+To install StoryPy via the Python Package Index, follow the steps described below, depending on your platform.
+
+Unix-based
+^^^^^^^^^^
+
+Run the following command in the terminal::
 
     pip3 install storypy
 
-**Windows**
+Windows
+^^^^^^^
 
-::
+Run the following command in the terminal::
 
     pip install storypy
 
-After installation, make sure that StoryPy is successfully installed, by trying to include it in a program::
+Directly from wheel
+-------------------
 
-    import storypy
+To install StoryPy from the wheel source, follow the steps described below, depending on your platform.
 
-If running the above command doesn't return an error (``ModuleNotFoundError``, for example), everything's alright, and StoryPy is ready to be used.
+Unix-based
+^^^^^^^^^^
+
+1. Download the latest supported version of StoryPy from `the GitHub repository releases page <https://github.com/storypy/storypy/releases>`__, named something like ``storypy-[version]-py3-none-any.whl``.
+2. Navigate to the directory containing the downloaded wheel.
+3. Run the following command in the terminal (make sure to replace ``[version]`` with the actual version number of the downloaded wheel)::
+
+    pip3 install storypy-[version]-py3-none-any.whl
+
+Windows
+^^^^^^^
+
+1. Download the latest supported version of StoryPy from `the GitHub repository releases page <https://github.com/storypy/storypy/releases>`__, named something like ``storypy-[version]-py3-none-any.whl``.
+2. Navigate to the directory containing the downloaded wheel.
+3. Run the following command in the terminal (make sure to replace ``[version]`` with the actual version number of the downloaded wheel)::
+
+    pip install storypy-[version]-py3-none-any.whl
+
