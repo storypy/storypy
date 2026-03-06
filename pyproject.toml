@@ -1,6 +1,6 @@
 [project]
 name = "storypy"
-version = "0.4.4"
+version = "0.4.5"
 authors = [
   { name="Andras Baki", email="andrasbaki6@googlemail.com" },
 ]
@@ -21,4 +21,3 @@ Issues = "https://github.com/storypy/storypy/issues"
 [build-system]
 requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
-

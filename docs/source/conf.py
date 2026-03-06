@@ -13,7 +13,7 @@ sys.path.insert(0, os.path.abspath('../../src'))
 project = 'StoryPy'
 copyright = '2026, Andras Baki'
 author = 'Andras Baki'
-release = '0.4.4'
+release = '0.4.5'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
