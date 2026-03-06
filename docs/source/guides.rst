@@ -10,9 +10,9 @@ After the module is included, all its objects will be available.
 The ``declare`` function
 ------------------------
 
-You can use the ``storypy.declare()`` function to declare variables in the main scope of your program (scope selection is not yet supported, but planned).
+You can use the ``storypy.declare()`` function to declare variables in the caller's global namespace (scope selection is not yet supported, but planned).
 
-    Note that if the specified entity already exists in the main scope, the ``declare`` function will override it without confirmation.
+    Note that if the specified entity already exists, the ``declare`` function will override it without confirmation.
 
 Usage
 ^^^^^
@@ -36,4 +36,4 @@ So we'd like to create a variable called "one", with the integer value of 1. We 
 
     storypy.declare("variable", "one", 1)
 
-And that's it. Now, the ``one`` variable will be available in our program's main scope.
+And that's it. Now, the ``one`` variable will be available in our program's globals.
